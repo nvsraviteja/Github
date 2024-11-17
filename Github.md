@@ -3,6 +3,9 @@ In general, no one works directly on the main branch. Instead, they create a fea
 
 # Git Commands
 
+`git clone`
+it will copy the remote repository to local
+
 `git init`
 it will convert an empty directory into a git repository. in simple it will add .git which tracks the changes in the directry
 
@@ -14,4 +17,13 @@ it will take a snapshot of the changes added to the staging area
 
 `git push`
 it will push the changes from local repo to remote
+
+`git status`
+it will check the status of the repository like any lines added, updated, deleted.
+
+`git checkout -b'
+it will create a new branch and switch the branch to the new branch
+
+`git checkout branch_name`
+it will switch the branch
 
